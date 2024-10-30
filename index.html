@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+            <title>Dahman Clicker
+            </title>
+</head>
+        
+<body>
+            <button class="btn">Dahman</button>
+            <p>Clicks = <span class="clicks">213
+            </span></p>
+            <script>
+
+                const btn = document.querySelector(".btn")
+                const count = document.querySelector('.clicks')
+                    let counter = 0
+                btn.addEventListener('click', ()=>{
+                        counter++
+                        count.innerHTML = counter
+                })
+
+
+
+            </script>
+</body>
+        
